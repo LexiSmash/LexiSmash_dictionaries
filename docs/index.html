@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LexiSmash Dictionaries — Explorer</title>
+<meta name="description" content="Browse and search the LexiSmash word dictionaries (6 languages) directly in your browser — no install needed.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="page-header">
+    <div class="page-header-inner">
+        <h1>📖 LexiSmash Dictionaries — Explorer</h1>
+        <p class="subtitle">Browse, search and double-check the word lists that power <a href="https://lexismash.it" target="_blank" rel="noopener noreferrer">LexiSmash</a> — useful before opening a Pull Request.</p>
+        <a class="repo-link" href="https://github.com/R0mb0/LexiSmash_dictionaries" target="_blank" rel="noopener noreferrer">← Back to the repository</a>
+    </div>
+</header>
+
+<main class="page-main">
+
+    <section class="panel" aria-labelledby="lang-heading">
+        <h2 id="lang-heading" class="panel-heading">Languages &amp; categories</h2>
+        <div class="lang-selector-grid" id="lang-selector-grid"></div>
+        <div id="lang-panels-container"></div>
+    </section>
+
+    <section class="panel search-panel" aria-label="Search">
+        <span class="search-icon" aria-hidden="true">🔎</span>
+        <input type="text" id="search-input" placeholder="Type to search a word…" autocomplete="off" maxlength="40">
+    </section>
+
+    <section class="panel results-panel" aria-label="Results">
+        <div class="results-header">
+            <div>Word</div>
+            <div>Category</div>
+        </div>
+        <div id="results-body" class="results-body">
+            <div class="results-placeholder" id="results-placeholder">Loading dictionaries…</div>
+        </div>
+        <div id="results-footer" class="results-footer"></div>
+    </section>
+
+</main>
+
+<footer class="page-footer">
+    Data licensed per-language — see <a href="./dictionaries/LICENSES.md" target="_blank" rel="noopener noreferrer">LICENSES.md</a>. Found a mistake? <a href="https://github.com/R0mb0/LexiSmash_dictionaries/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener noreferrer">Learn how to propose a fix</a>.
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
