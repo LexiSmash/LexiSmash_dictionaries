@@ -1,13 +1,30 @@
 <div align="center">
 <h1>📚 LexiSmash Dictionaries 🔤</h1>
 
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/ea5bb43b81884e5d89f4b7094b0b0615)](https://app.codacy.com/gh/R0mb0/LexiSmash_dictionaries/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
+[![pages-build-deployment](https://github.com/R0mb0/LexiSmash_dictionaries/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/R0mb0/LexiSmash_dictionaries/actions/workflows/pages/pages-build-deployment)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/R0mb0/LexiSmash_dictionaries)
+[![Open Source Love svg3](https://badges.frapsoft.com/os/v3/open-source.svg?v=103)](https://github.com/R0mb0/LexiSmash_dictionaries)
+![License](https://img.shields.io/badge/license-CC0%201.0-blue.svg?style=plastic)
+[![Donate](https://img.shields.io/badge/PayPal-Donate%20to%20Author-blue.svg)](http://paypal.me/R0mb0)
+
 <p>
 The official word dictionaries powering <a href="https://lexismash.it"><strong>LexiSmash</strong></a>, a multiplayer word party game — <strong>6 languages</strong>, over <strong>400,000 words each</strong>, plus a standalone browser-based explorer to search, filter and double-check every entry before proposing a fix. 🚀
 </p>
+
+<div align="center">
+  <a href="http://paypal.me/R0mb0">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/R0mb0/Support_the_dev_badge/blob/main/Badge/SVG/Support_the_dev_badge_Dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="https://github.com/R0mb0/Support_the_dev_badge/blob/main/Badge/SVG/Support_the_dev_badge_Light.svg">
+      <img alt="Saved you time? Support the dev" src="https://github.com/R0mb0/Support_the_dev_badge/blob/main/Badge/SVG/Support_the_dev_badge_Default.svg">
+    </picture>
+  </a>
 </div>
 
 ## [👉 Click here to open the Explorer! 👈](https://r0mb0.github.io/LexiSmash_dictionaries/)
 
+</div>
 <hr>
 
 <h2>🚀 Features</h2>
@@ -86,3 +103,14 @@ This repository is the <strong>editorial source of truth</strong> for the dictio
 <li><strong>Code</strong> (the standalone Explorer in <code>docs/</code>, this README, <code>CONTRIBUTING.md</code>) is original work released into the public domain under <a href="LICENSE">CC0 1.0 Universal</a> — use it, modify it, redistribute it, no permission needed.</li>
 <li><strong>Data</strong> (the files inside <code>docs/dictionaries/</code>) is <strong>not</strong> uniformly licensed: it derives from different external lexicons, each keeping its own original license (LGPL-LR, CC BY-SA, CC BY/BSD, CC BY-SA/LGPL, Public Domain — depending on the language) — see <a href="docs/dictionaries/LICENSES.md">docs/dictionaries/LICENSES.md</a> for the exact per-language terms and required attribution. If you reuse the data outside this project, respect the specific license of the language you're using — not a generic "CC0".</li>
 </ul>
+
+
+<br>
+
+<a href="https://github.com/R0mb0/Crafted_with_AI">
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://github.com/R0mb0/Crafted_with_AI/blob/main/Badge/SVG/CraftedWithAIDark.svg">
+<source media="(prefers-color-scheme: light)" srcset="https://github.com/R0mb0/Crafted_with_AI/blob/main/Badge/SVG/NotMadeByAILight.svg">
+<img alt="Crafted with AI" src="https://github.com/R0mb0/Crafted_with_AI/blob/main/Badge/SVG/CraftedWithAIDefault.svg">
+</picture>
+</a>
